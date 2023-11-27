@@ -20,7 +20,7 @@ RUN apt-get -qq install -y curl python3 python3-pip python3-dev build-essential 
 COPY requirements/requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
 
-COPY config/config.toml ./.streamlit/config.toml
+COPY config/config.toml /opt/.streamlit/config.toml
 
 COPY scripts/bootstrap.sh ./bootstrap.sh
 RUN chmod +x ./bootstrap.sh
