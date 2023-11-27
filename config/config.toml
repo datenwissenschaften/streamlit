@@ -1,0 +1,8 @@
+[server]
+
+headless = true
+baseUrlPath = "/streamlit"
+
+[browser]
+
+gatherUsageStats = false
