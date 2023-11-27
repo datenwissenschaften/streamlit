@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip install -r /notebooks/requirements.txt
-streamlit run "/notebooks/Home.py"
+streamlit run /notebooks/Home.py
