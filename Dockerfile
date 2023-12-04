@@ -5,7 +5,6 @@ LABEL version="1.0"
 LABEL description="Streamlit Runner"
 LABEL name="datenwissenschaften/streamlit"
 
-
 ARG DEBIAN_FRONTEND=noninteractive
 
 WORKDIR /opt
